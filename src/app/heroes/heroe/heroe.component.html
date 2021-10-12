@@ -1,0 +1,13 @@
+<h1>El componente de heroe funciona</h1>
+<dl>
+  <td>Nombre: </td>
+  <dd>{{nombre}}</dd>
+  <td>Edad: </td>
+  <dd>{{edad}}</dd>
+  <td>Funcion: </td>
+  <dd>{{obtenerNombre(true)}} *Concadenar forma 1</dd>
+  <dd>{{obtenerNombre(false)}} *Concadenar forma 2</dd>
+  <td>Nombre capitalizado: </td>
+  <dd>{{nombreCapitalizado}}</dd>
+</dl>
+<button (click)=cambiarHeroe()>Cambiar heroe</button>
